@@ -7,7 +7,7 @@ from PIL import Image
 
 
 try:
-    model = load_model("extension_model.h5")
+    model = load_model("extension_model.keras")
 except Exception as e:
     raise RuntimeError(f"Error loading model: {str(e)}")
 
